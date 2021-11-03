@@ -1377,12 +1377,6 @@ void Inter_call_srv::monthly_call()
     }
 }
 
-void Morning_srv::morn_1()
-{
-}
-void Morning_srv::morn_2()
-{
-}
 void SMS_srv::daily_sms()
 {
     system("cls");
@@ -1488,7 +1482,6 @@ void SMS_srv::monthly_sms()
 int main()
 {
     system("cls");
-
     // your initial mobile balance
     bal = 100;
     Main_srv start;
